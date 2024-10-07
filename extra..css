@@ -1,0 +1,68 @@
+.line-2{
+
+  height:0.5px;
+  background: rgb(188, 188, 188);
+  margin-bottom:1rem;
+  margin-right:4.5rem;
+  margin-left:3rem;
+  
+}
+/*.line{
+  height:2px;
+  background: rgb(188, 188, 188);
+  margin-bottom:1rem;
+}*/
+
+<div>
+      <h2> Vegetarian Biryani </h2>
+      <ul>
+        <li>Vegetable Biryani</li>
+        <li>Mushroom Biryani</li>
+        <li>Paneer Biryani</li>
+        <li>Palak Biryani</li>
+        <li>Tomato Biryani</li>
+        <li>Baby Corn Biryani</li>
+        <li>Cauliflower Biryani(Gobhi)</li>
+        <li>Potato Biryani(Aloo)</li>
+        <li>Soya Chunk Biryani</li>
+        <li>Mixed Vegetable Biryani</li>
+      </ul>
+      </div>
+      <div>
+           
+      <h2>Regional Indian Biryani Varieties</h2>
+      <ul>
+        <li>Hyderabadi Biryani(Telangana)</li>
+        <li>Lucknowi Biryani(Uttar Pradesh)</li>
+        <li>Sindhi Biryani(Sindhi, Pakistan)</li>
+        <li>Kolkata Biryani(West Bengal)</li>
+        <li>Tamil Nadu Biryani(South India)</li>
+        <li>Thalassery Biryani(Kerala)</li>
+        <li>Mysore Biryani(Karnataka)</li>
+        <li>Awadhi Biryani(Uttar Pradesh)</li>
+        <li>Nizami Biryani(Hyderabad)</li>
+        <li>Arcot Biryani(Tamil Nadu)</li>
+
+      </ul>
+      </div>
+       
+      <div>
+      <h2>
+        Fusion ans Innovative Biryani Varieties
+      </h2>
+      <ul>
+        <li>Saffron Biryani</li>
+        <li>Quinoa Biryani</li>
+        <li>Brown Rice Biryani</li>
+        <li>Egg Biryani</li>
+        <li>Chicken Tikka Biryani</li>
+        <li>Veggie Kofta Biryani</li>
+        <li>Mushroom and Spinach Biryani</li>
+        <li>Jackfruit Biryani</li>
+        <li>Sweet Potato Biryani</li>
+        <li>Tofu Biryani</li>
+
+
+      </ul>
+
+     </div>
