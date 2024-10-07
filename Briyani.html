@@ -9,23 +9,26 @@
     
     <!--CSS link -->
     <link rel="stylesheet" href="Briyani.css">  
+
     <!--google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>  
   </head>
+  
   <body>
     <header>
      <h1> BIRYANI RECIPES</h1>
     </header>
     <!-- lEFT SIDE BAR-->
-     <div id="briyani-list">
-      
+     <div id="briyani-list" class="container">
+      <div class="sidenav-Bar">
       <div class="sidenav">
         <h2>Non- Vegeterain Biryani</h2>
-        <a href="#">Chicken Biryani</a>
-        <a href="#">Mutton Biryani</a>
+        <a href="#" data-recipe="chicken-briyani">Chicken Biryani</a>
+        <a href="#" data-recipe="mutton-briyani">Mutton Biryani</a>
         <a href="#">Hyderabadi Chicken Dum Biryani</a>
         <a href="#">Lucknowi Mutton Biryani</a>
         <a href="#">Sindhi Chicken Biryani</a>
@@ -36,5 +39,59 @@
         <a href="#">Beef Biryani</a>
       </div>
 
+      <div class="sidenav">
+      <h2> Vegetarian Biryani </h2>
+      
+        <a href ="#">Vegetable Biryani</a>
+        <a href ="#">Mushroom Biryani</a>
+        <a href ="#">Paneer Biryani</a>
+        <a href ="#">Palak Biryani</a>
+        <a href ="#">Tomato Biryani</a>
+        <a href ="#">Baby Corn Biryani</a>
+        <a href ="#">Cauliflower Biryani(Gobhi)</a>
+        <a href ="#">Potato Biryani(Aloo)</a>
+        <a href ="#">Soya Chunk Biryani</a>
+        <a href ="#">Mixed Vegetable Biryani</a>
      </div>
+     <div class="sidenav">
+      <h2>Regional Indian Biryani Varieties</h2>
+      
+        <a href ="#">Hyderabadi Biryani(Telangana)</a>
+        <a href ="#">Lucknowi Biryani(Uttar Pradesh)</a>
+        <a href ="#">Sindhi Biryani(Sindhi, Pakistan)</a>
+        <a href ="#">Kolkata Biryani(West Bengal)</a></a>
+        <a href ="#">Tamil Nadu Biryani(South India)</a>
+        <a href ="#">Thalassery Biryani(Kerala)</a>
+        <a href ="#">Mysore Biryani(Karnataka)</a>
+        <a href ="#">Awadhi Biryani(Uttar Pradesh)</a>
+        <a href ="#">Nizami Biryani(Hyderabad)</a>
+        <a href ="#">Arcot Biryani(Tamil Nadu)</a>
+      </div>
+
+        <div class="sidenav">
+          <h2>Fusion ans Innovative Biryani Varieties</h2>
+          
+            <a href ="#">Saffron Biryani</a>
+            <a href ="#">Quinoa Biryani</a>
+            <a href ="#">Brown Rice Biryani</a>
+            <a href ="#">Egg Biryani</a>
+            <a href ="#">Chicken Tikka Biryani</a>
+            <a href ="#">Veggie Kofta Biryania</a>
+            <a href ="#">Mushroom and Spinach Biryani</a>
+            <a href ="#">Jackfruit Biryani</a>
+            <a href ="#">Sweet Potato Biryani</a>
+            <a href ="#">Tofu Biryani</a>
+     </div>
+     </div>
+    
+        
+     <div id ="recipe-content">
+      <p>select a recipe from list</p>
+      <p></p>
+
+     </div>
+     </div>
+     <script src="scripts.js"></script>
+    
+     
   </body>

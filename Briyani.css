@@ -10,8 +10,8 @@ body{
   
   height:100vh;
   overflow-x:hidden;
-  background-color: rgb(0, 0, 0);
-  color:#fffafa;
+  background-color: rgb(255, 249, 249);
+  color:#242323;
   font-weight: 600;
   font-size:17px;
 }
@@ -20,23 +20,46 @@ header{
 
 
 }
-.sidenav{
-  margin-top:5%;
-}
-h2 {
-  padding-left:5%;
-  color:#a0ffea;
-  
-  width:20%;
+.container {
+  display:flex;
+  flex-direction:row;
+  gap:20px;
+  position:relative;
+  margin-left:10%;
+
 
 }
-.sidenav a {
+.sidenav-Bar{
+  margin:8% 2%;
+  box-shadow:5px 5px 10px black;
+  padding:0 24px;
+}
+.sidenav{
   display:flex;
   flex-direction:column;
-  color:rgb(255, 255, 255);
-  text-decoration: underline;
-  padding-left: 4%;
-  margin:1%;
+  margin-top:20px;
+  gap:10px;
 
 
+}
+.sidenav a{
+  display:block;
+
+}
+h2 {
+  color:#000000;
+  
+ 
+
+}
+
+#recipe-content {
+  flex:1;
+  margin:8% 20%;
+  box-shadow:5px 5px 10px black;
+  text-align:center;
+  text-decoration:none;
+}
+#recipe-content p{
+  color:white;
 }
