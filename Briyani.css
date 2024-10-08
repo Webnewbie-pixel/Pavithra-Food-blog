@@ -17,6 +17,12 @@ body{
 }
 header{
   text-align:center;
+  padding:20px 0;
+  font-size:30px;
+  color:rgb(69, 69, 61);
+  background-color:#00EFBA;
+  box-shadow:10px 10px 20px rgb(129, 128, 128);
+  height:12%;
 
 
 }
@@ -31,7 +37,7 @@ header{
 }
 .sidenav-Bar{
   margin:8% 2%;
-  box-shadow:5px 5px 10px black;
+  box-shadow:5px 5px 10px hwb(0 57% 41%);
   padding:0 24px;
 }
 .sidenav{
@@ -44,22 +50,35 @@ header{
 }
 .sidenav a{
   display:block;
+  
 
 }
 h2 {
   color:#000000;
-  
- 
-
 }
 
 #recipe-content {
   flex:1;
   margin:8% 20%;
-  box-shadow:5px 5px 10px black;
-  text-align:center;
-  text-decoration:none;
+  list-style-type:none;
 }
 #recipe-content p{
   color:white;
+}
+@media (max-width: 440px){
+  header {
+    font-size: 15px;
+    
+  }
+  .sidenav-Bar{
+    margin:0px;
+  }
+  .sidenav a {
+    font-size:15px;
+  }
+  #recipe-content{
+    margin: 0 12px ;
+    
+  }
+
 }
