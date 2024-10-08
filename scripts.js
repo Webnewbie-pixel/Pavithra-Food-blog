@@ -7,7 +7,7 @@ console.log("javascript is running")
 const recipes = {
   'chicken-briyani' : {
     title : 'Chicken Briyani',
-    ingredients: ['Basmat Rice - 2 Cups',
+    ingredients: ['Basmati Rice - 2 Cups',
                    '1 lb boneless, skinless Chicken breast/thigh, cut into small pieces',
                    'Water  - 4 Cups',
                    'Oil - 2 tbsp or as per your need',
@@ -45,7 +45,7 @@ const recipes = {
     },
     'mutton-briyani' : {
       title: 'Mutton-Briyani',
-      ingredients : ['Basmat Rice - 2 Cups',
+      ingredients : ['Basmati Rice - 2 Cups',
         '1 lb mutton/lamb, cut into small pieces',
         'Water  - 4 Cups',
         'Oil - 2 tbsp or as per your need',
@@ -89,7 +89,7 @@ const recipes = {
 
 briyaniList.addEventListener('click', (e) => {
   recipeContent.style.color ='black';
-  recipeContent.style.fontSize = '23px';
+  recipeContent.style.fontSize = '20px';
   recipeContent.style.fontStyle ='italic';
   recipeContent.style.width = '250px';
   recipeContent.style.textAlign='center';
