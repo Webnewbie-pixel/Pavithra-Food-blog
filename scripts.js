@@ -88,10 +88,12 @@ const recipes = {
 //Add event listener to the left sidebar links
 
 briyaniList.addEventListener('click', (e) => {
-  recipeContent.style.color ='hwb(0 57% 41%)';
-  recipeContent.style.fontSize = '20px';
+  recipeContent.style.color ='black';
+  recipeContent.style.fontSize = '23px';
   recipeContent.style.fontStyle ='italic';
   recipeContent.style.width = '250px';
+  recipeContent.style.textAlign='center';
+  
   e.preventDefault();
   if(e.target.tagName === 'A') {
     const recipeId = e.target.getAttribute('data-recipe');
@@ -108,16 +110,16 @@ function displayRecipe(recipe) {
   const html = `
   <h1>${recipe.title}</h1><br> 
   <h2>Ingredients: </h2><br>
-  <ul>
+  
   ${recipe.ingredients.map((ingredient) =>
     `<li>${ingredient}</li>`).join('')}
-    </ul>
+    
     <br>
     <h2>Instructions:</h2><br>
-    <ol>
+    
     ${recipe.instructions.map((instruction) =>
     `<li>${instruction}</li>`).join('')}
-    </ol>
+
     
 
     `;

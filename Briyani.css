@@ -10,21 +10,29 @@ body{
   
   height:100vh;
   overflow-x:hidden;
-  background-color: rgb(255, 249, 249);
+  background-color: hwb(0 100% 0%);
   color:#242323;
   font-weight: 600;
   font-size:17px;
+
 }
 header{
   text-align:center;
   padding:20px 0;
   font-size:30px;
   color:rgb(69, 69, 61);
-  background-color:#00EFBA;
+  background-color:#C5EDC1;
   box-shadow:10px 10px 20px rgb(129, 128, 128);
   height:12%;
 
 
+}
+img{
+position: absolute;
+background-repeat: repeat;
+max-width: 90%;
+margin:90px;
+padding-top:30px;
 }
 .container {
   display:flex;
@@ -37,7 +45,7 @@ header{
 }
 .sidenav-Bar{
   margin:8% 2%;
-  box-shadow:5px 5px 10px hwb(0 57% 41%);
+  /*box-shadow:5px 5px 10px hwb(0 57% 41%);*/
   padding:0 24px;
 }
 .sidenav{
@@ -50,6 +58,7 @@ header{
 }
 .sidenav a{
   display:block;
+  color:rgb(38, 180, 182);
   
 
 }
@@ -61,15 +70,22 @@ h2 {
   flex:1;
   margin:8% 20%;
   list-style-type:none;
+ /* border: 2px solid gray;*/
+ /* box-shadow:5px 5px 10px hwb(0 57% 41%);*/
+  
 }
 #recipe-content p{
-  color:white;
+  color:rgb(15, 41, 107);
+  font-style: italic;
+  font-size:25px;
 }
 @media (max-width: 440px){
   header {
     font-size: 15px;
+    width:600px;
     
   }
+  
   .sidenav-Bar{
     margin:0px;
   }
@@ -77,8 +93,10 @@ h2 {
     font-size:15px;
   }
   #recipe-content{
-    margin: 0 12px ;
+    margin: 0;
+    min-width:350px;
     
+
   }
 
 }
