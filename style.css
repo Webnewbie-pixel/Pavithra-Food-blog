@@ -17,7 +17,7 @@ body{
   width:100%;
   height:100vh;
   overflow-x:hidden;
-  background-color: rgb(255, 255, 255);
+  background-color:  rgb(243, 238, 226);
   
   
 }
@@ -25,7 +25,7 @@ header{
   display:flex;
   flex-direction:row;
   justify-content:space-between;
-  background-color:#ffffff;
+  background-color:#000000;
   height:100px;
   
 }
@@ -35,7 +35,7 @@ header img{
 
 }
 header h1{
-  color:rgb(234, 159, 132);
+  color:rgb(38, 180, 182);
   font-style:var(--font-style);
   font-style:italic;
 }
@@ -57,7 +57,7 @@ nav li a {
   padding:3px;
   text-decoration: none;
   font-size:20px;
-  color:rgb(234, 159, 132);
+  color:rgb(38, 180, 182);
   font-style:italic;
   
 }
@@ -118,7 +118,7 @@ section h2{
    Position:sticky;
    backdrop-filter: blur(30px);
    box-shadow:5px 5px 30px rgba(255, 192, 174, 0.37);
-   border:4px solid rgb(212, 76, 76, 0.18);
+   border:1px thin rgb(212, 76, 76, 0.18);
    
 }
 
