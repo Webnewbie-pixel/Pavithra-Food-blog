@@ -4,6 +4,7 @@
 :root {
   --primary-color:rgb(38, 180, 182);;
   --font-style:italic;
+  --color:rgb(49, 51, 51);
 }
 *{
   margin:0;
@@ -25,17 +26,19 @@ header{
   display:flex;
   flex-direction:row;
   justify-content:space-between;
-  background-color:#000000;
+  background-color:#ffffff;
   height:100px;
+  gap:20px;
   
 }
 header img{
-  width:150px;
-  height:100px;
+  width:180px;
+  overflow:hidden;
+  height:90px;
 
 }
 header h1{
-  color:rgb(38, 180, 182);
+  color:rgb(49, 51, 51);
   font-style:var(--font-style);
   font-style:italic;
 }
@@ -56,8 +59,8 @@ nav li a {
   list-style-type: none;
   padding:3px;
   text-decoration: none;
-  font-size:20px;
-  color:rgb(38, 180, 182);
+  font-size:22px;
+  color:var(--color);
   font-style:italic;
   
 }
@@ -76,12 +79,21 @@ padding-right:4px;
     display:none;
   
   }
+  .food-blog{
+    display:flex;
+    flex-direction: column;
+  }
+  .container,.footer-images{
+    display:flex;
+    flex-direction:column;
+  }
+
 }
 
 .hero{
   width:100%;
   height:500px;
-  background:url('My\ logo\ Image\ food\ blog.png');
+  background:url('Add\ a\ little\ bit\ of\ body\ text.png');
   background-size: cover;
   background-position: center;
   background-repeat: none;
@@ -117,7 +129,7 @@ section h2{
 .Menu-bar{
    Position:sticky;
    backdrop-filter: blur(30px);
-   box-shadow:5px 5px 10px  rgba(38, 180, 182, 0.2);
+   box-shadow:5px 5px 10px  rgb(157, 154, 154);
    border:1px thin rgba(38, 180, 182, 0.2);
    
 }
@@ -125,8 +137,8 @@ section h2{
 .Menu-bar a {
   text-decoration: none;
   padding:3px;
-  color:var(--primary-color);
-  font-size:21px;
+  color:var(--color);
+  font-size:24px;
   Margin-left:2rem;
   margin-right:2rem;
   font-style: italic;
@@ -135,6 +147,75 @@ section h2{
 .Menu-bar a:hover{
   color:rgb(212, 76, 76);
   box-shadow: 0px 0px 15px bisque ;
+}
+.container{
+  margin-top:20%;
+  background-color: rgb(255, 253, 253);
+  display:flex;
+  flex-direction:row;
+  box-shadow: 10px 10px 20px rgb(147, 144, 144);
+}
+  
+.footer-info,.footer-sociallinks {
+  display:flex;
+  flex-direction:column;
+  margin-left:10px;
+
+}
+footer img{
+  width: 380px;
+}
+.footer-info{
+  box-shadow: 5px 5px 10px rgb(147, 144, 144);
+}
+.footer-images img {
+  width:300px;
+  height:250px;
+  box-shadow: 5px 5px 10px gray;
+  padding:20px;
+  margin:10px;
+  display:block;
+  
+}
+.footer-images {
+ position:relative;
+ width:50%;
+ max-width:300px;
+ display:flex;
+ margin:5% 15%;
+}
+.overlay{
+  position:absolute;
+  background: rgba(0,0,0, 0.5);
+  color:#ffffff;
+  width:100%;
+  transition: .5s ease;
+  opacity:0;
+  
+  font-size:20px;
+  text-align:center;
+  padding:20px;
+  margin-top:-74px;
+  margin-left:10px;
+
+  
+}
+.footer-images:hover .overlay{
+  opacity:1;
+}
+.footer-sociallinks a{
+  color:rgb(0, 0, 0);
+  font-size:17px;
+}
+
+  
+div p{
+  color:rgb(0, 0, 0);
+  font-size:15px;
+  text-align:center;
+  padding-top:20px;
+
+  
 }
 
 @media screen and (max-width: 540px) {
