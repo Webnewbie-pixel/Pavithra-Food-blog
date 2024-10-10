@@ -96,7 +96,7 @@ padding-right:4px;
   background:url('Add\ a\ little\ bit\ of\ body\ text.png');
   background-size: cover;
   background-position: center;
-  background-repeat: none;
+  
   box-shadow: 5px 5px 15px rgb(96, 94, 94);
 }
 section h1{
@@ -223,4 +223,11 @@ div p{
     float: none;
     display: block;
   }
+  .hero{
+    width:100%;
+    height:500px;
+    background:url('Add\ a\ little\ bit\ of\ body\ text.png');
+    background-size: cover;
+    background-position: center;
+}
 }
