@@ -71,11 +71,13 @@ h2 {
   list-style-type:none;
  border: 2px solid gray;
  box-shadow:10px 10px 15px hwb(120 28% 71%);
+ line-height: 1.6;
   
 }
 #recipe-content p{
   color:rgb(15, 41, 107);
-  font-style: italic;
+  letter-spacing: 0.4px;
+  font-family: Arial, Helvetica, sans-serif;
   font-size:25px;
 }
 @media (max-width: 768px){
@@ -91,11 +93,18 @@ h2 {
   .sidenav-Bar{
     margin:0px;
   }
+  .sidenav h2 {
+    font-size:20px;
+    
+  }
   h2 {
-    font-size:15px;
+    line-height: 1.6;
   }
   li {
     font-size:14px;
+    letter-spacing: 0.4px;
+    line-height: 1.6;
+  
   }
   .sidenav a {
     font-size:12px;
@@ -103,6 +112,7 @@ h2 {
   #recipe-content{
     height:100%;
     min-width:300px; 
+    word-wrap: break-word;
 
   }
   a[data-recipe] {
