@@ -224,11 +224,7 @@ const recipes = {
                           '7. SERVING:',
                           'Once done, gently fluff the biryani layers.',
                           'Serve hot, garnished with fried onions, accompanied by Raita or Salan (spicy curry).',
-
-
-                                          
-                                    
-      ]
+                        ]
 
     },
     'fish-briyani' : {
@@ -263,8 +259,6 @@ const recipes = {
                      'Oil : 3 tbsp',
                      'A few saffron strands soaked in 2 tbsp warm milk (or yellow food coloring)',
                       'Fried onions and boiled eggs (for garnish)',
-
-
       ],
 
        instructions: [
@@ -358,8 +352,7 @@ const recipes = {
                         'Place the pot on a low flame or in a preheated oven at 180°C (350°F) for 20-25 minutes to allow the flavors to meld.',
                         'SERVE :',
                         'Garnish with fried onions and serve hot with raita (yogurt sauce) or a fresh salad.',
-
-       ]         
+  ]         
     },
     'shrimp-briyani' : {
       title : 'SHRIMP BRIYANI',
@@ -412,7 +405,6 @@ const recipes = {
                         'Garnish with fried onions and serve with lemon wedges and raita.'
 
         ]         
-
     },
     'beef-briyani' : {
       title : 'BEEF BRIYANI',
@@ -601,7 +593,6 @@ const recipes = {
                       'Gently fluff the biryani before serving. Serve hot with raita or your favorite side dish.'
                     ]           
 
-
     },
     'palak-briyani' : {
       title : 'PALAK BRIYANI',
@@ -613,20 +604,17 @@ const recipes = {
                     'Cinnamon stick : 1- inch',
                     'Bay leaf : 1',
                     'Salt to taste',
-
                      'FOR PALAK MASALA :',
                      'Oil : 2 tablespoons',
                      'Onion, thinly sliced : 2',
                      'Tomatoes, chopped : 2',
                      'Paneer, cubed : 250 grms',
-                
                      'Giner-garlic paste : 1 tsp',
                      'Turmeric powder : 1 tsp',
                      'Red chili powder : 1 tsp',
                      'Garam masala powder : 1 tsp',
                      'Coriander powder : 1 tsp',
                      'Salt to taste',
-
                      'FOR BRIYANI LAYERING :',
                      'Fried onions(birista) : 1/4 cup fried',
                      'Fresh coriander leaves, chopped : handful',
@@ -672,7 +660,6 @@ const recipes = {
                     'Cinnamon stick : 1- inch',
                     'Bay leaf : 1',
                     'Salt to taste',
-                     
                     'FOR TOMATO MASALA :',
                      'Oil : 2 tablespoons',
                      'Onion, thinly sliced : 2',
@@ -716,9 +703,6 @@ const recipes = {
                        'SERVE :',
                        'Gently fluff the biryani before serving.',
                        'Serve hot with raita, salad, or chutney.'
-
-                      
-                      
                       ]            
     },
     'baby-corn' : {
@@ -777,8 +761,7 @@ const recipes = {
                      'Garnish with the reserved fried onions and additional fresh herbs.',
                      'Serve hot with raita (yogurt sauce), salad, and lemon wedges.',
                   
-                    ]
-             
+                    ]      
       
     },
     'cauliflower-briyani' : {
@@ -987,7 +970,7 @@ const recipes = {
       ],
        instructions : ['MARINATE THE CHICKEN :',
                           'In a bowl, mix yogurt, ginger-garlic paste, biryani masala, red chili powder, turmeric, and salt.',
-                          'Add the chicken pieces and coat them well. Cover and refrigerate for at least 2 hours (or overnight for best results).',
+                          ' Add the chicken pieces and coat them well. Cover and refrigerate for at least 2 hours (or overnight for best results).',
                        'PREPARE THE RICE :', 
                        'Wash the basmati rice thoroughly and soak it for 30 minutes',  
                         'In a large pot, bring water to a boil, add salt, bay leaves, shah jeera, and green cardamoms.',
@@ -1014,8 +997,7 @@ const recipes = {
                         'SERVE :',
                         'Gently mix the layers and serve hot with raita or salad.',
                       ] 
-
-    },
+                    },
     'sindhi-briyani' : {
       title : 'SINDHI CHICKEN BRIYANI',
       ingredients : ['Chicken : 500g, with bone',
@@ -1042,10 +1024,8 @@ const recipes = {
                      'Saffron : soaked in warm milk (optional)',
                      'Oil : for frying',
                      'Salt - to taste',
-
-
       ],
-      instructions : ['COOK THE RICE : Boil the basmati rice with cardamom, bay leaves, and salt until it’s 70% cooked. Drain and set aside.',
+      instructions : ['COOK THE RICE : Boil the basmati rice with cardamom, bay leaves, and salt until it is 70% cooked. Drain and set aside.',
                       'MARINATE THE CHICKEN : Mix yogurt, ginger-garlic paste, red chili powder, turmeric, coriander powder, and salt with the chicken. Marinate for at least 1 hour.',
                       'FRY THE POTATOES : Deep fry the halved potatoes in oil until golden brown. Set aside.',
                       'COOK THE CHICKEN : In a large pan, heat oil and ghee, add cumin seeds, black cardamom, green cardamom, cloves, cinnamon, and fry. Add onions and cook until golden brown. Add the marinated chicken and sauté until the chicken is cooked through and oil separates.',
@@ -1115,8 +1095,7 @@ const recipes = {
                       'COOK THE CHICKEN :  In a pan, heat oil and ghee. Fry onions until golden brown. Add ginger-garlic paste and green chilies. Add tomatoes and cook until soft. Add chicken, yogurt, and spices (red chili powder, turmeric, coriander powder, garam masala). Cook until the chicken is tender and the oil separates. ',
                       'LAYER THE BRIYANI : In a large pot, layer half the rice, add the chicken mixture, then top with the remaining rice. Garnish with fried onions, cashews, raisins, mint, and coriander leaves.',
                       'DUM COOK : Cover the pot and cook on low heat for 20-30 minutes.',
-                      'SERVE HOT, garnished with fried cashews and raisins.'
-               
+                      'SERVE HOT, garnished with fried cashews and raisins.'       
         ]
     },
     'mysore-briyani' : {
@@ -1158,18 +1137,267 @@ const recipes = {
                       'Layer the meat mixture with the semi-cooked rice in a pot. Top with fried onions, mint, and coriander.',
                       'Cover the pot, seal with dough or a tight lid, and cook on low flame for 20-25 minutes (dum).',
                       'Serve hot with raita or a simple salad.'
+      ]               
+    },
+    'awadhi-recipe' : {
+      title : 'AWADHI BRIYANI',
+      descriptions : 'Awadhi briyani is a fragrant and mildly spiced briyani from Lucknow. It is known for its dum style cooking(Slow-cooking with steam.).',
+      ingredients : ['Mutton : 500g',
+                     'Basmati rice (soaked for 30 min) : 2 cups',
+                     'Onions : 2 (thinly sliced)',
+                     'Yogurt : 1/2 cup',
+                     'Ghee : 2 tbsp',
+                     'Oil :  tbsp',
+                     'Red chili powder : 1 tsp',
+                     'Turmeric powder : 1/2 tsp',
+                     'Milk : 1/4 cup',
+                     'Garam masala : 1 tsp',
+                     'Cinnamon stick : 1 inch piece',
+                     'Bay leaves : 2',
+                     'Mint leaves : 1/2 cup, chopped',
+                     'Coriander leaves : 1/2 cup, chopped',
+                     'Ginger-garlic paste : 1 tbsp',
+                     'Green chilies : 4-5 , slit',
+                     'Rose water : 1 tbsp',
+                     'Cloves : 4-5',
+                     'Cardamom pods : 2-3',
+                     'Salt : to taste'
+                     
+      ], 
+      instructions : ['MARINATE THE MUTTON : Marinate the mutton/chicken in yogurt, ginger-garlic paste, red chili powder, turmeric, and salt. Let it sit for at least 2 hours.',
+                      'In a large pot, heat ghee and add whole spices (bay leaf, cinnamon, cardamom, cloves). Fry for a minute.',
+                      'Add marinated mutton/chicken and cook on medium heat until the meat is tender and cooked through.',
+                      'Cook the rice with whole spices (optional) until it is 70% done. Drain and set aside.',
+                      'In a small bowl, mix milk, saffron, and rose water.',
+                      'In the same pot as the meat, layer the rice over the meat. Top with fried onions, saffron milk, and fresh coriander and mint leaves.',
+                      'Cover the pot with a tight lid or seal with dough and cook on low heat for 20-25 minutes (dum).',
+                      'Serve hot with raita.'
       ]
-      
-      
-              
-                
-           
-               
-    }
-  
-  }
-//Add event listener to the left sidebar links
+    },
+    'nizami-briyani' : {
+      title : 'NIZAMI BRIYANI',
+      descriptions : 'Nizami Biryani is a rich, royal biryani from Hyderabad, known for its strong spices and unique layering technique. The meat is usually marinated in yogurt and spices.',
+      ingredients : ['Mutton/Chicken : 500g',
+                     'Basmati rice : 2 cups',
+                     'Large onions : 2 thinly sliced and fried until brown',
+                     'Yogurt : 1/2 cup',
+                     'Ginger-garlic paste : 1 tbsp',
+                     'Briyani masala : 2 tbsp',
+                     'Red chili powder : 1 tsp',
+                     'Turmeric powder : 1 tsp',
+                     'Green chilies : 4-5 slit',
+                     'A handful of fresh mint and coriander leaves',
+                     'A few strands of saffron',
+                     'Milk : 1/4 cup',
+                     'Ghee or oil : 3 tbsp',
+                     'Whole spices : 1 bay leaf, 3 cloves. 1 cinnamon stick, 3 cardamom pods',
+                     'Salt to taste',              
 
+      ],
+      instructions :['Marinate the mutton/chicken with yogurt, ginger-garlic paste, biryani masala, red chili powder, turmeric, and salt. Let it sit for at least 1-2 hours.',
+                     'In a large pot, heat oil/ghee and add whole spices (bay leaf, cinnamon, cardamom, cloves). Fry for a minute.',
+                     'Add the marinated mutton/chicken and cook until the meat is tender.',
+                     'Add cream, green chilies, and fresh mint and coriander leaves. Cook until the gravy thickens.',
+                     'Cook the rice with some salt until it is 70% done. Drain and set aside.',
+                     'Mix saffron with warm milk.',
+                     'In the same pot, layer the semi-cooked rice over the meat. Top with fried onions, saffron milk, and more fresh herbs.',
+                     'Cover the pot, seal with dough or a tight lid, and dum cook on low heat for 20-30 minutes.',
+                     'Serve hot with salad or raita.'
+      ]
+    },
+    'arcot-briyani' : {
+      title : 'ARCOT BRIYANI',
+      descriptions :'Arcot Biryani hails from Tamil Nadu and is known for its simplicity and balanced flavors. Unlike its counterparts, it uses fewer spices and is lighter on the palate.',
+      ingredients :['Chicken/Mutton : 500g',
+                    'Seeraga Samba rice (short grain) : 2 cups',
+                    'Onions : 3 large, thinly sliced',
+                    'Tomatoes : 2, large, chopped',
+                    'Yogurt : 1/2 cup',
+                    'Ginger-garlic paste : 2 tbsp',
+                    'Green chilies : 3, slit',
+                    'Red chili powder : 1 tsp',
+                    'Turmeric powder : 1/2 tsp',
+                    'Coriander powder : 1 tsp',
+                    'Garam masala : 1 tsp',
+                    'Cloves : 4-5',
+                    'Cinnamon stick : 1-inch piece',
+                    'Bay leaves : 2',
+                    'Star anise : 1',
+                    'Mint leaves : 1/2 cup, chopped',
+                    'Coriander leaves : 1/2 cup, chopped',
+                    'Lemon juice : 1 tbsp',
+                    'Ghee : 4 tbsp',
+                    'Oil : 2 tbsp',
+                    'Salt : to taste',
+      ],
+      instructions :['Marinate the mutton/chicken in yogurt, ginger-garlic paste, red chili powder, and salt. Let it sit for 1 hour.',
+                     'In a pressure cooker (or pot), heat oil/ghee and add whole spices (bay leaf, cloves, cinnamon, cardamom). Sauté for a minute.',
+                     'Add onions and fry until golden brown. Add tomatoes and cook until soft.',
+                     'Add the marinated mutton/chicken, along with coriander powder and biryani masala. Stir well and cook until the meat is browned and the masala is cooked through.',
+                     'Add green chilies, fresh mint, and coriander leaves.',
+                     'Add water (about 2 cups for 1 cup of rice) and bring it to a boil.',
+                     'Add the soaked rice, stir, and cook until the rice absorbs the water (if using a pot) or pressure cook for 2 whistles.',
+                     'Let the biryani rest for a few minutes, then fluff the rice with a fork.',
+                     'Serve hot with boiled eggs, raita, or salad. '
+      ]
+  
+  },
+  'chicken-tikka' : {
+    title : 'CHICKEN TIKKA BRIYANI',
+    descriptions : 'Chicken Tikka Biryani, a flavorful and aromatic dish that combines the spice of chicken tikka with the richness of biryani:',
+    ingredients : ['FOR CHICKEN TIKKA MASALA',
+                    'Boneless chicken : 500g(cut into bite-sized pieces',
+                    'Yogurt : 1 cup (thick)',
+                    'Ginger-garlic paste : 1 tbsp',
+                    'Lemon juice : 2 tbsp',
+                    'Red chili powder : 1 tsp',
+                    'Turmeric powder : 1 tsp',
+                    'Garam masala : 1 tsp',
+                    'Cumin powder : 1 tsp',
+                    'Coriander powder : 1 tsp',
+                    'Black pepper powder : 1/2 tsp',
+                    'Oil : 2 tbsp',
+                    'Salt to taste',
+                    'FOR RICE : ',
+                    'Basmati rice : 2 cups (soaked for 30 mins)',
+                    'Water : 4-5 cups',
+                    'Bay leaf : 1',
+                    'Green cardamom pods : 3-4',
+                    'Cinnamon stick : 1 -inch',
+                    'Cloves : 4-5',
+                    'Cumin seeds : 1 tsp',
+                    'Salt to taste',
+                    'FOR BRIYANI LAYERS :',
+                    'Onions : 2 large, thinly sliced',
+                    'Tomatoes : 2 chopped',
+                    'Fresh coriander leaves : 1/2 cup, chopped',
+                    'Fresh mint leaves : 1/4 cup, chopped',
+                    'Turmeric powder : 1/2 tsp',
+                    'Red chili powder : 1 tsp',
+                    'Briyani masala : 1 tsp',
+                    'Ghee of Oil : 1/4 cup',
+                    'Fried onions : 1/4 cup fried onions',
+                    'Saffron strands soaked in 2 tbsp warm milk',
+                    'Melted butter or ghee (for layering) : 2 tbsp',
+
+
+    ],
+    instructions : ['MARINATE THE CHICKEN TIKKA :',
+                  'In a large bowl, mix the yogurt, ginger-garlic paste, lemon juice, red chili powder, turmeric powder, garam masala, cumin powder, coriander powder, black pepper, oil, and salt.',
+                  'Add the chicken pieces to the marinade, making sure each piece is well-coated.',
+                 'Cover the bowl and let the chicken marinate for at least 1 hour (or overnight for best flavor).',
+                  'COOK THE CHICKEN TIKKA',
+                  'Preheat your oven to 200°C (400°F) or heat a grill pan.',
+                  'Arrange the marinated chicken pieces on skewers or directly on a baking tray.',
+                  'Grill or roast the chicken for 15-20 minutes, turning halfway, until it is cooked through and slightly charred.',
+                  'Set the cooked chicken tikka aside.',
+                  'PREPARE THE BRIYANI RICE : ',
+                  'In a large pot, bring 4-5 cups of water to a boil.',
+                  'Add the bay leaf, cardamom pods, cinnamon stick, cloves, cumin seeds, and salt to the boiling water.',
+                  'Add the soaked rice and cook until it’s 70-80% done (the rice should still have a bite to it).',
+                  'Drain the rice and set it aside.',
+                  'PREAPRE THE BRIYANI MASALA BASE :',
+                  'Heat 1/4 cup ghee or oil in a deep pan.',
+                  'Add the sliced onions and sauté until they turn golden brown.',
+                  'Add the chopped tomatoes, slit green chilies, turmeric powder, red chili powder, and biryani masala (or garam masala).',
+                  'Cook until the tomatoes break down and the oil starts to separate from the masala.',
+                  'Add the cooked chicken tikka to the masala and stir well. Cook for 5 minutes to combine the flavors.',
+                   'LAYER THE BRIYANI :',
+                   'In a large, heavy-bottomed pot, spread half of the cooked chicken tikka masala mixture at the bottom.',
+                   'Add a layer of the partially cooked rice on top.',
+                   'Sprinkle half of the chopped coriander leaves, mint leaves, and fried onions (if using).',
+                   'Drizzle a little saffron milk and melted butter or ghee over the rice.',
+                   'Repeat the layering with the remaining chicken tikka masala and rice.',
+                   'Finish with the remaining herbs, fried onions, saffron milk, and butter.',
+                   'DUM COOKING :',
+                   'Cover the pot tightly with a lid or foil to trap the steam.',
+                   'Place the pot over low heat and cook for 20-25 minutes (this is called "dum" cooking, where the biryani steams in its own moisture).',
+                   'Turn off the heat and let the biryani rest for 10 minutes before serving.',
+                   'SERVE :',
+                   'Gently fluff the biryani with a fork to mix the layers.',
+                   'Serve hot with raita (yogurt dip) or a fresh salad.',
+                ]
+  },
+  'veg-kofta' : {
+    title : 'VEGGIE KOFTA BRIYANI',
+    descriptions :'Veggie Kofta Biryani, which combines the richness of biryani with crispy, flavorful vegetable koftas (fried dumplings):',
+    ingredients : ['FOR VEGGIE KOFTAS :',
+                  'Potatoes : 2 large, bolied and mashed',
+                  'Mixed vegetables (carrots, peas, beans), boiled and mashed : 1/2 cup',
+                  'Paneer (optional) grated : 1/4 cup',
+                  'Red chili powder : 1/2 tsp',
+                  'Turmeric powder : 1/2 tsp',
+                  'Garam masala : 1 tsp',
+                  'Cumin powder : 1 tsp',
+                  'Coriander powder : 1 tsp',
+                  'Cornflour (for binding) : 2 tbsp',
+                  'Salt to taste',
+                  'Oil for frying',
+                  'Fresh coriander leaves, chopped : 2 tbsp',
+                  'Green chillied, finely chopped : 1-2',
+                  'FOR BRIYANI RICE :',
+                  'Basmati rice, soked for 30 mins : 2 cups',
+                  'Water : 4-5 cups',
+                  'Bay leaf : 1',
+                  'Green cardamom pods : 3-4',
+                  'Cinnamon stick : 1 -inch',
+                  'Cloves : 4-5',
+                  'Cumin seeds : 1 tsp',
+                  'Salt to taste',
+                  'FOR BRIYANI MASALA BASE :',
+                  'Onions : 2 large, thinly sliced',
+                    'Tomatoes : 2 chopped',
+                    'Yogurt : 1/2 cup',
+                    'Fresh coriander leaves : 1/2 cup, chopped',
+                    'Fresh mint leaves : 1/4 cup, chopped',
+                    'Turmeric powder : 1/2 tsp',
+                    'Red chili powder : 1 tsp',
+                    'Briyani masala : 1 tsp',
+                    'Ghee of Oil : 1/4 cup',
+                    'Fried onions : 1/4 cup fried onions',
+                    'Saffron strands soaked in 2 tbsp warm milk',
+                    'Melted butter or ghee (for layering) : 2 tbsp',
+
+
+    ],
+    instructions :['PREPARE THE VEGGIE KOFTA : In a large bowl, combine the boiled and mashed potatoes, mixed vegetables, and paneer (if using).',
+                   'Add red chili powder, turmeric powder, garam masala, cumin powder, coriander powder, and salt.',
+                   'Stir in the chopped coriander leaves, green chilies, and cornflour for binding. Mix well to form a dough-like consistency.',
+                   'Divide the mixture into small portions and shape them into round or oval koftas (dumplings).',
+                   'Heat oil in a deep pan and fry the koftas until golden brown and crispy. Drain on paper towels and set aside.',
+                   'PREPARE THE BRIYANI RICE :In a large pot, bring 4-5 cups of water to a boil. ',
+                   'Add the bay leaf, cardamom pods, cinnamon stick, cloves, cumin seeds, and salt to the boiling water.',
+                   'Add the soaked rice and cook until it’s 70-80% done (the rice should still have a bite to it).',
+                   'Drain the rice and set it aside.',
+                   'PREPARE THE BRIYANI MASALA BASE : Heat 1/4 cup oil or ghee in a deep pan.',
+                   'Add the sliced onions and sauté until they turn golden brown.',
+                   'Add the chopped tomatoes and cook until they soften and break down.',
+                   'Add the slit green chilies, turmeric powder, red chili powder, and biryani masala (or garam masala).',
+                   'Stir well and cook until the masala releases oil.',
+                   'Optionally, add yogurt for extra richness, and cook for another 3-4 minutes until well blended.',
+                   'Add chopped coriander and mint leaves, and stir well.',
+                   'LAYER THE BRIYANI :',
+                   'In a large, heavy-bottomed pot, spread half of the biryani masala base at the bottom.',
+                   'Add a layer of the partially cooked rice on top.',
+                   'Arrange half of the fried veggie koftas on the rice layer.',
+                   'Sprinkle some chopped coriander, mint leaves, and a drizzle of saffron milk (if using).',
+                   'Repeat the layering with the remaining biryani masala, rice, and koftas.',
+                   'Finish with a final sprinkle of herbs, saffron milk, and melted butter or ghee.',
+                   'DUM COOKING',
+                   'Cover the pot tightly with a lid or foil to trap the steam.',
+                   'Place the pot over low heat and cook for 20-25 minutes to allow the flavors to blend (this is called "dum" cooking).',
+                   'Turn off the heat and let the biryani rest for 10 minutes before serving.',
+                   'SERVE :',
+                   'Gently fluff the biryani with a fork to mix the layers without breaking the koftas.',
+                   'Serve hot with raita (yogurt dip) or a simple cucumber salad.',
+
+
+
+    ]
+                 
+  }
+}
+//Add event listener to the left sidebar links
 briyaniList.addEventListener('click', (e) => {
   recipeContent.style.color ='hwb(120 28% 71%)';
   recipeContent.style.fontSize = '18px';
