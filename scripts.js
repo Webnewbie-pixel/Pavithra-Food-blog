@@ -1294,7 +1294,7 @@ const recipes = {
                   'PREPARE THE BRIYANI RICE : ',
                   'In a large pot, bring 4-5 cups of water to a boil.',
                   'Add the bay leaf, cardamom pods, cinnamon stick, cloves, cumin seeds, and salt to the boiling water.',
-                  'Add the soaked rice and cook until it’s 70-80% done (the rice should still have a bite to it).',
+                  'Add the soaked rice and cook until it is 70-80% done (the rice should still have a bite to it).',
                   'Drain the rice and set it aside.',
                   'PREAPRE THE BRIYANI MASALA BASE :',
                   'Heat 1/4 cup ghee or oil in a deep pan.',
