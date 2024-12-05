@@ -96,15 +96,25 @@ padding-right:4px;
   background:url('Add\ a\ little\ bit\ of\ body\ text.png');
   background-size: cover;
   background-position: center;
-  
   box-shadow: 5px 5px 15px rgb(96, 94, 94);
 }
-section h1{
+.hero h1{
   color:rgb(255, 255, 255);
   text-align: center;
   padding-top:5rem;
-  font-size:4rem;
+  font-size:3rem;
   font-style:italic;
+  margin-bottom:30px;
+  text-decoration: none;
+}
+h1 {
+  color:black;
+  font-size:35px;
+  text-align:center;
+  margin:2rem 0 2rem 0;
+  font-style:italic;
+  font-weight:400;
+  text-decoration: underline;
 
 }
 section h2{

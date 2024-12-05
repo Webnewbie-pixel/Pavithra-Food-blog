@@ -1036,6 +1036,7 @@ const recipes = {
     },
     'Tamilnadu-briyani' : {
       title : 'TAMILNADU CHCIKEN BRIYANI',
+      descriptions :'Tamil Nadu Chicken Briyani is a flavorful and spicy briyani known for its bold use of spices and distinct South Indian flair. Prepared with seeraga samba rice, this briyani boasts an aromatic blend of fresh ground masalas, marinated chicken, and traditional spices like bay leaf, star anise and Cinnamon. ',
       ingredients :['Chicken : 500g, with bone',
                     'Seeraga Samba rice (short grain) : 2 cups',
                     'Onions : 3 large, thinly sliced',
@@ -1069,6 +1070,7 @@ const recipes = {
     },
     'Thalassery-briyani' : {
       title : 'KERALA THALASSERY BRIYANI',
+      descriptions : 'Kerala Thalassery briyani, a treasured dish from the coastal town of Thalassery, is a unique variation of briyani known for its delicate flavors and rich heritage.',
       ingredients :['Jeerakasla rice : 2 cups',
                     'Onions - 3 large, thinly sliced',
                      'Tomatoes : 2 medium, chopped',
